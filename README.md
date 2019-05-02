@@ -13,11 +13,11 @@ It's made to a specific server for a simple handshake authentification.
 
 **Server** -> 10 random bytes -> **Client**
 
-## Phase 3
+### Phase 3
 
 **Client** -> Sha256(message serveur + password) -> **Server**
 
-#Phase 4
+### Phase 4
 
 **Server** -> secret message -> **client**
 
